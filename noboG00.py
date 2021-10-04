@@ -5,18 +5,18 @@ import sys
 
 from datetime import datetime
 
-now = datetime.now()                                           # current date and time
+now = datetime.now()                                                    # current date and time
 date_time = now.strftime("%Y%m%d%H%M%S")
 
-HOST = "IPadress"                                              # The server's hostname or IP address
-PORT = 27779                                                   # The port used by the server
+HOST = "IPadress"                                                       # The server's hostname or IP address
+PORT = 27779                                                            # The port used by the server
 
 print ("NOBO API")
 with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as s:
     s.connect((HOST, PORT))
     print ("--HANDSHAKE--")
-    handshake_message = "HELLO 1.1 102000117168 "+ date_time + "\r"
-    bytemessage = handshake_message.encode()                   #convert from string to byte
+    handshake_message = "HELLO 1.1 yyyyyyyyyyyy "+ date_time + "\r"     #yyyyyyyyyyyy is HUB serial number
+    bytemessage = handshake_message.encode()                            #convert from string to byte
     print ("Sent: ",bytemessage)
     s.sendall(bytemessage)
     data = s.recv(1024)
