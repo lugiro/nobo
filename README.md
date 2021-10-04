@@ -1,5 +1,6 @@
 ## Nobø API kommandoer
 Programmet noboG00.py benyttes sammen med Nobø HUB og en Raspberry Pi i samme nettverk som HUB.
+
 noboG00.py er et svært forenkelt python3-program for å kjøre API kommandoer som er listet opp i Nobø-dokument:\
 https://www.glendimplex.no/media/15655/nobo-hub-api-v-1-1-integration-for-advanced-users.pdf
 
