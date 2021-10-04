@@ -15,7 +15,7 @@ print ("NOBO API")
 with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as s:
     s.connect((HOST, PORT))
     print ("--HANDSHAKE--")
-    handshake_message = "HELLO 1.1 yyyyyyyyyyyy "+ date_time + "\r"    #HUB serial number
+    handshake_message = "HELLO 1.1 yyyyyyyyyyyy "+ date_time + "\r"    #yyyyyyyyyyyy HUB serial number
     bytemessage = handshake_message.encode()                           #convert from string to byte
     print ("Sent: ",bytemessage)
     s.sendall(bytemessage)
