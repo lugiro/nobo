@@ -16,7 +16,7 @@ xxxxxxxxxxxx er objekt serienummer (f.eks ovn)
 
 noboG00.py har ingen feilhåndteringsmekanismer og kan defor gi "heng"-situasjoner i gitte tilfeller.
 
-Denne programvaren brukes på eget ansvar og utgiver av denne programvaren tar ikke noe ansvar for eventuell skade som kan skje på ved bruk av programvaren.
+Denne programvaren brukes på eget ansvar og utgiver av programvaren tar ikke noe ansvar for eventuell skade som kan skje ved bruk av programvaren.
 
 IMPORTANT\
 This software is not officially supported or endorsed by Glen Dimplex Nordic AS, and program supplier is not an official partner of Glen Dimplex Nordic as.
