@@ -10,7 +10,7 @@ Programmet kan modifiseres til å sende andre kommandoer.
 Programmet kjøres fra kommando-linje (CLI) i Raspberry Pi:\
 python3 noboG00.py
 
-Filen eksempel_utskrift.txt viser et eksempel på resultat fra programkjøring. Inneholder en sone, en ukeprofil (i tilegg til default) og en ovn.\
+eksempel_utskrift.txt viser et eksempel på resultat fra programkjøring. Inneholder en sone, en ukeprofil (i tilegg til default) og en ovn.\
 yyyyyyyyyyyy er HUB serienummer\
 xxxxxxxxxxxx er objekt serienummer (f.eks ovn)
 
